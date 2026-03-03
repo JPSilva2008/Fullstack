@@ -1,0 +1,106 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+    background-color: #d9d9d9;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: bisque;
+    color: green;
+    font-size: 20pt;
+}
+.introdução{
+    color: indigo;
+    font-size: 18pt;
+}
+.logo{
+    width: 100px;
+}
+.menu{
+    background-color: #5aa6d6;
+    padding: 10px;
+}
+.menu a{
+    margin: 50px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+section{
+    padding: 50px;
+    background-color: #d9d9d9;
+}
+.imagenslivros{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: #d9d9d9;
+}
+.imagenslivros img{
+    width: 300px;
+
+}
+.imagensFEI{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 400px;
+}
+th,td{
+    border: 2px dotted red;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    color: red;
+    background-color: transparent;
+}
+.info-extra{
+    background-color: yellow;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+.titulo{
+    color: black;
+    font-weight: bold;
+}
+.info-extra a {
+    color: darkred;
+    text-decoration: none;
+    padding-left: 80px;
+    font-weight: bold;
+    
+}
+    
+footer{
+    background-color: bisque;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    width: 150px;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
