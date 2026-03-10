@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+    
+}
+.cabecalho{
+    display: flex;
+       
+    font-weight: bold;
+}
+.cabecalho a{
+    margin: 50px;
+    text-decoration: none;
+    color:gray;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14pt;
+    
+       
+}
+.menu a {
+    color: gray;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.Lo{
+    gap: 100px;
+    
+
+}
+.Lo h1{
+    font-size: 14pt;
+    color: gray;
+    justify-content: space-between;
+}
+.TMNC{
+    color: red;
+    font-size: 18pt;
+}
+
+    
