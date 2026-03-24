@@ -1,0 +1,20 @@
+html
+h1 = titulo
+p = paragrafo
+img = imagem
+a = link
+div = caixa (montar tudo nela)
+css
+mexe com a div e alterla ela
+padding = espaço interno
+margin = espaço externo
+border = borda da caixa
+width = largura, width: 100% = ocupa tudo
+img: usar height: auto
+height = altura
+block = quebra linha e ocupa tudo
+inline = fica na mesma linha
+img é inline (por isso usar display: block)
+relative = move mas mantém espaço
+absolute = sai do fluxo e posiciona livre
+absolute depende do pai com relative

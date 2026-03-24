@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  align-items: center;
+}
+
+.assine {
+  background: red;
+  color: white;
+  padding: 8px 12px;
+}
+
+/* TOPO */
+.topo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.topo img {
+  width: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.linha1 {
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.linha2 a {
+  margin-left: 10px;
+}
+
+/* TÍTULO */
+h1 {
+  color: red;
+  padding: 10px;
+}
+
+/* NOTÍCIAS */
+.container {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.esquerda {
+  flex: 2;
+}
+
+.esquerda img {
+  width: 100%;
+  display: block;
+}
+
+.texto-vermelho {
+  display: flex;
+  background: red;
+  color: white;
+}
+
+.texto-vermelho p {
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+}
+
+/* DIREITA */
+.direita {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.titulo {
+  color: red;
+}
+
+.sub {
+  color: gray;
+}
+
+/* VÍDEO */
+.video {
+  background: #444;
+  color: white;
+  padding: 20px;
+}
+
+.box-video {
+  background: black;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RODAPÉ */
+.rodape {
+  display: flex;
+  justify-content: space-around;
+  background: #eee;
+  padding: 20px;
+}
+
+.col p {
+  margin: 5px 0;
+}
