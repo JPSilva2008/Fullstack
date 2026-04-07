@@ -1,120 +1,16 @@
 body {
-    max-width: 1000px;
-    margin: auto;
-    font-family: Arial;
-}
-
-/* MENU */
-.menu {
+    background-color: white;
     display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 10px;
-}
-
-.assine {
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-}
-
-/* TOPO */
-.topo {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 15px;
-}
-
-.logo {
-    width: 150px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-}
-
-.linha1 {
-    display: flex;
-    gap: 20px;
-}
-
-.redes {
-    display: flex;
-    gap: 15px;
-}
-
-/* TÍTULO */
-.titulo {
-    color: red;
-    text-align: center;
-}
-
-/* NOTÍCIAS */
-.container {
-    display: flex;
-    gap: 10px;
-}
-
-.esquerda {
-    flex: 2;
-}
-
-.esquerda img {
-    width: 100%;
-    display: block;
-}
-
-.texto {
-    display: flex;
-    background-color: red;
-    color: white;
-}
-
-.texto p {
-    width: 50%;
-    padding: 10px;
+    justify-content: center; 
     margin: 0;
+    
 }
 
-/* DIREITA */
-.direita {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+#tela{
+   background-color: aquamarine;
 }
 
-.card img {
-    width: 100%;
-    display: block;
-}
 
-.card p {
-    margin: 5px 0;
-}
-
-/* VÍDEO */
-.video {
-    margin-top: 20px;
-    background-color: #444;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.video img {
-    width: 80%;
-}
-
-/* RODAPÉ */
-.rodape {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #eee;
 }
