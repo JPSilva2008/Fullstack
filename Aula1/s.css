@@ -1,0 +1,9 @@
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    background-color: burlywood;
+}

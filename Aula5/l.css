@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+    
+}
+
+#tela{
+   background-color: aquamarine;
+}
+
+
+}

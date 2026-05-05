@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    
+
+
+
+    <script type="text/javascript">
+        var soma = 0;
+        var total = 0;
+        var maior;
+        var menor;
+        var mulheres5000 = 0;
+
+        var idade = prompt("Idade:");
+
+        while (idade >= 0) {
+            let = sexo = prompt("Sexo (M/F):");
+            let = salario = (prompt("Salario:"));
+            soma = soma + salario;
+            total = total + 1;
+            if (total == 1) {
+                maior = idade;
+                menor = idade;
+            }
+            if (idade > maior) {
+                maior = idade;
+            }
+            if (idade < menor) {
+                menor = idade;
+                
+            }
+            if (sexo == "F" && salario <= 5000) {
+                F = F + 1;
+            }
+            idade = prompt("Idade:");
+        }
+        if (total > 0) {
+            let media = soma / total;
+
+            alert ("Média:" + media);
+            alert ("Maior idade: " + maior);
+            alert ("Menor idade:" + menor);
+            alert ("Mulheres até 5000:" + F);
+
+
+        }  else {
+            alert("Sem dados");
+        }
+        
+    </script>
+</body>
+</html>
