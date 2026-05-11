@@ -1,0 +1,128 @@
+
+
+body{
+    margin-top: 8px;
+    background:#cfcfcf;
+    font-family:Georgia;
+    text-align:center;
+}
+
+
+.topo{
+    background:#f2dfbf;
+    border:4px solid navy;
+    height:170px;
+    position:relative;
+}
+
+.logo-esq{
+    width:120px;
+    position:absolute;
+    left:20px;
+    top:20px;
+}
+
+.logo-dir{
+    width:100px;
+    position:absolute;
+    right:20px;
+    top:20px;
+}
+
+h1{
+    color:green;
+    font-size:55px;
+    padding-top:45px;
+}
+
+nav{
+    background:#79c5f2;
+    padding:15px;
+}
+
+nav a{
+    color:#7a0040;
+    text-decoration:none;
+    margin:0 45px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:red;
+}
+
+
+section{
+    padding:20px;
+}
+
+h2{
+    font-size:45px;
+}
+
+p{
+    font-size:18px;
+    color:#5b2488;
+    line-height:1.5;
+}
+
+
+.livros img{
+    width:180px;
+    height:260px;
+    margin:30px 40px;
+}
+
+
+
+.midia{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    margin-top:30px;
+}
+
+
+table{
+    margin:auto;
+    border:3px dashed red;
+    border-collapse:collapse;
+    background:#ddd;
+}
+
+th,td{
+    border:1px solid gray;
+    padding:12px;
+}
+
+th{
+    color:red;
+}
+
+
+.consulta{
+    background:yellow;
+    width:500px;
+    margin:40px auto;
+    text-align:left;
+    padding:15px;
+}
+
+
+footer{
+    background:#f2dfbf;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.rodape-img{
+    width:70px;
+}
+
+.texto-footer{
+    font-family:"Comic Sans MS";
+    font-size:20px;
+    color:black;
+}
