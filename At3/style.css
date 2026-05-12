@@ -1,0 +1,127 @@
+body{
+    background-color: #2f2f2f;
+    font-family: "Times New Roman", serif;
+}
+
+.container{
+    width: 900px;
+    margin: auto;
+    background-color: lightgray;
+    border: 2px solid navy;
+}
+
+/* TOPO */
+header{
+    background-color: #f0dfc5;
+    border: 2px solid blue;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1{
+    color: green;
+    font-size: 38px;
+}
+
+.logo-esq,
+.logo-dir{
+    width: 90px;
+    height: 90px;
+}
+
+/* MENU */
+nav{
+    background-color: #d7d7d7;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+}
+
+nav a{
+    color: darkblue;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: red;
+}
+
+/* SEÇÕES */
+section{
+    text-align: center;
+    padding: 20px;
+}
+
+section h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p{
+    font-size: 18px;
+    text-align: justify;
+    color: purple;
+}
+
+/* LIVROS */
+.livros{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.livros img{
+    width: 180px;
+    height: 260px;
+}
+
+/* VIDEOS */
+.videos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.videos img{
+    width: 300px;
+    height: 200px;
+}
+
+/* CONTATOS */
+.contato-box{
+    width: 300px;
+    margin: 20px auto;
+    border: 2px dashed red;
+    background-color: white;
+    padding: 10px;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+/* RODAPÉ */
+footer{
+    background-color: #f0dfc5;
+    border-top: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer img{
+    width: 70px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+}

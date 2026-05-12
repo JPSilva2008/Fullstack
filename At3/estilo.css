@@ -1,0 +1,98 @@
+/*COR*/
+
+body{
+    background-color: lightgray;
+}
+
+.vermelho{
+    color: red;
+}
+
+/*DIV CABEÇALHO*/
+
+.cabecalho1{
+    background: bisque;
+    padding: 5px;
+    border: 5px blue solid;
+    display: flex;
+    font-size: 40px;
+    color: darkgreen;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho2{
+    display: flex;
+    background: lightskyblue;
+    padding: 5px;
+    font-size: 20px;
+    justify-content: center;
+    gap: 150px;
+    color: darkred;
+}
+
+/*DIV IMAGENS*/
+
+.livros{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.iframes{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+/*DIV RODAPÉ*/
+
+.rodape{
+    background: bisque;
+    padding: 5px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*TABELA*/
+
+.tabela{
+    border: 3px red;
+    border-style: dashed;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.borda{
+    border: 1px solid red;
+    padding: 8px;
+}
+
+/*SITES*/
+
+.sites{
+    background: yellow;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 160px;
+}
+
+/*ALINHADOR DE TEXTO*/
+
+.alinhadorTXT{
+    text-align: center;
+}
+
+.alinhadorTXTindigo{
+    text-align: center;
+    color: indigo;
+}
