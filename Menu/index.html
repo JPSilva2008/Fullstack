@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Pausa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="meuCanvas" width="900" height="600"></canvas>
+
+    <!-- MENU -->
+    <div id="menuPause" class="menu oculto">
+
+        <h1>JOGO PAUSADO</h1>
+
+        <button onclick="retomarJogo()">
+            Retomar Jogo
+        </button>
+
+        <button onclick="configuracoes()">
+            Configurações
+        </button>
+
+        <button onclick="repetirFase()">
+            Repetir Fase
+        </button>
+
+        <button onclick="sairJogo()">
+            Sair
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
